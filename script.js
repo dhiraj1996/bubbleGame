@@ -1,5 +1,5 @@
 
-var counter = 6;
+var counter = 60;
 let score = 0;
 let hitrn = 0;
 
