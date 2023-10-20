@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    /* background-color: #b13a3a; */
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    background-color: #96B6C5;
+
+}
+
+#panel{
+     overflow: hidden;  /* It is used to hide ptop overflow and show panel border radius. */
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#ptop{
+    padding: 0 30%;
+    display: flex;
+    /* align-items: center;   As you remember align-items works in x axis */
+    /* justify-content: space-around; */
+    color: aliceblue;
+    background-color: #ADC4CE;
+    width: 100%;
+    height: 100px;
+}
+
+#elem {
+    /* overflow-wrap:normal; */
+    /* background-color: brown; */
+    width: 100%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    gap: 2px;  /* Here creating gap between h4 and div box. */
+    justify-content: space-around;
+    /* font-size: 4vw; */
+}
+/* #elem.h4{
+    color:rgb(84, 95, 187);
+} */
+
+.box{
+    color:rgb(32, 38, 94);
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 8px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+/* This is for pannel bottom */
+
+#pbtm {
+    background-color: rgb(255, 255, 255);
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    padding: 21px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#bubble {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 41px;
+    width:  41px;
+    border-radius: 50%;
+    background-color: #ADC4CE;
+}
+
+#bubble:hover{
+    cursor: pointer;
+    background-color: #96B6C5;
+}
